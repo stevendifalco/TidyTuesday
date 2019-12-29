@@ -1,6 +1,4 @@
-# Contributions to #TidyTuesday
-
-Here are my contributions to [#TidyTuesday](https://github.com/rfordatascience/tidytuesday)
+# Here are my contributions to [#TidyTuesday](https://github.com/rfordatascience/tidytuesday)
 
 Steven DiFalco- 12/29/2019
 
