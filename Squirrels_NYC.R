@@ -4,6 +4,7 @@ library(rgdal)
 library(KernSmooth)
 library(leaflet)
 library(raster)
+library(htmlwidgets)
 
 nyc_squirrels <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-29/nyc_squirrels.csv")
 
@@ -106,5 +107,4 @@ leaflet(options = leafletOptions(zoomControl = TRUE)) %>%
             values = raster_data,
             title = "Squirrels Kuks") %>%
   setView(lng = mean(nyc_squirrels$long), lat = mean(nyc_squirrels$lat), zoom = 13.5)
-
 
